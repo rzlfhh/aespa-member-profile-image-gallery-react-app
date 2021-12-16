@@ -1,0 +1,27 @@
+@import 'reset';
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 4em;
+
+  h2 {
+    font-size: 2rem;
+    font-family: 'Syncopate',
+      sans-serif;
+  }
+
+  nav {
+    display: flex;
+    gap: 1em;
+
+    li>a {
+      cursor: pointer;
+      color: white;
+    }
+  }
+}
